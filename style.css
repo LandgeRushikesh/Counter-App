@@ -19,9 +19,23 @@
     justify-content: space-around;
     align-items: center;
 }
+
+@media screen and (max-width:800px) {
+    .counter-app{
+        width: 50vw;
+        height: 40vh;
+    }
+}
+@media screen and (max-width:500px) {
+    .counter-app{
+        width: 70vw;
+        height: 40vh;
+    }
+}
 .display{
     text-align: center;
     color: white;
+    font-size: larger;
 }
 .btns *{
     background: none;
